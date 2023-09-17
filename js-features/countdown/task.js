@@ -1,11 +1,9 @@
-// 1 задание
 
 let timer = document.getElementById("timer");
 
 function count() {
 
     setTimeout(() => {
-
 
         if (timer.textContent !== "0") {
 

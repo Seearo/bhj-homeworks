@@ -5,7 +5,6 @@ let clickCounter = document.getElementById(`clicker__counter`);
 let size = 0;
 
 
-
 function countByClick() {
 
     if (size == 0) {
