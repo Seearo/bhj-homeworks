@@ -9,9 +9,11 @@ let id;
 for (i = 1; i < 10; i++) {
     id = `hole` + i;
     function gethole(index) {
+
         let holeHasMole;
 
         holeHasMole = document.getElementById(index);
+        
         holeHasMole.onclick = function () {
             if (holeHasMole.classList.contains('hole_has-mole')) {
 
